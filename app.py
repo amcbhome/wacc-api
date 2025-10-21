@@ -5,7 +5,7 @@ import json
 st.set_page_config(page_title="💸 WACC API", layout="centered")
 
 # Read query parameters (?equity_value=...&debt_value=...)
-params = st.experimental_get_query_params()
+params = st.query_params
 
 st.title("💸 Weighted Average Cost of Capital (WACC) API")
 
